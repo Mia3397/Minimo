@@ -1,0 +1,397 @@
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfaiirDisplayPlayfairDisplay-Bold.eot');
+    src: url('../fonts/PlayfaiirDisplayPlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfaiirDisplayPlayfairDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/PlayfaiirDisplayPlayfairDisplay-Bold.woff') format('woff'),
+        url('../fonts/PlayfaiirDisplayPlayfairDisplay-Bold.ttf') format('truetype'),
+        url('../fonts/PlayfaiirDisplayPlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfaiirDisplayPlayfairDisplay-Regular.eot');
+    src: url('../fonts/PlayfaiirDisplayPlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfaiirDisplayPlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/PlayfaiirDisplayPlayfairDisplay-Regular.woff') format('woff'),
+        url('../fonts/PlayfaiirDisplayPlayfairDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/PlayfaiirDisplayPlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfaiirDisplayPlayfairDisplay-Black.eot');
+    src: url('../fonts/PlayfaiirDisplayPlayfairDisplay-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfaiirDisplayPlayfairDisplay-Black.woff2') format('woff2'),
+        url('../fonts/PlayfaiirDisplayPlayfairDisplay-Black.woff') format('woff'),
+        url('../fonts/PlayfaiirDisplayPlayfairDisplay-Black.ttf') format('truetype'),
+        url('../fonts/PlayfaiirDisplayPlayfairDisplay-Black.svg#PlayfairDisplay-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfaiirDisplayPlayfairDisplay-BoldItalic.eot');
+    src: url('../fonts/PlayfaiirDisplayPlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfaiirDisplayPlayfairDisplay-BoldItalic.woff2') format('woff2'),
+        url('../fonts/PlayfaiirDisplayPlayfairDisplay-BoldItalic.woff') format('woff'),
+        url('../fonts/PlayfaiirDisplayPlayfairDisplay-BoldItalic.ttf') format('truetype'),
+        url('../fonts/PlayfaiirDisplayPlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: '../PlayfairDisplay/Playfair Display';
+    src: url('..//fontsPlayfairDisplay/PlayfairDisplay-Italic.eot');
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.woff') format('woff'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.eot');
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.woff') format('woff'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.svg#PlayfairDisplay-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.eot');
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff') format('woff'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.eot');
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff') format('woff'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Black.eot');
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Black.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Black.woff') format('woff'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Black.svg#PlayfairDisplay-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu.eot');
+    src: url('../fonts/Ubuntu/Ubuntu.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu/Ubuntu.woff2') format('woff2'),
+        url('../fonts/Ubuntu/Ubuntu.woff') format('woff'),
+        url('../fonts/Ubuntu/Ubuntu.ttf') format('truetype'),
+        url('../fonts/Ubuntu/Ubuntu.svg#Ubuntu') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Bold.eot');
+    src: url('../fonts/Ubuntu/Ubuntu-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu/Ubuntu-Bold.woff2') format('woff2'),
+        url('../fonts/Ubuntu/Ubuntu-Bold.woff') format('woff'),
+        url('../fonts/Ubuntu/Ubuntu-Bold.ttf') format('truetype'),
+        url('../fonts/Ubuntu/Ubuntu-Bold.svg#Ubuntu-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Italic.eot');
+    src: url('../fonts/Ubuntu/Ubuntu-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu/Ubuntu-Italic.woff2') format('woff2'),
+        url('../fonts/Ubuntu/Ubuntu-Italic.woff') format('woff'),
+        url('../fonts/Ubuntu/Ubuntu-Italic.ttf') format('truetype'),
+        url('../fonts/Ubuntu/Ubuntu-Italic.svg#Ubuntu-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';/fonts
+    src: url('../fonts/Ubuntu/Ubuntu-BoldItalic.eot');
+    src: url('../fonts/Ubuntu/Ubuntu-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu/Ubuntu-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Ubuntu/Ubuntu-BoldItalic.woff') format('woff'),
+        url('../fonts/Ubuntu/Ubuntu-BoldItalic.ttf') format('truetype'),
+        url('../fonts/Ubuntu/Ubuntu-BoldItalic.svg#Ubuntu-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.eot');
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.woff') format('woff'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-MediumItalic.eot');
+    src: url('../fonts/Ubuntu/Ubuntu-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu/Ubuntu-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Ubuntu/Ubuntu-MediumItalic.woff') format('woff'),
+        url('../fonts/Ubuntu/Ubuntu-MediumItalic.ttf') format('truetype'),
+        url('../fonts/Ubuntu/Ubuntu-MediumItalic.svg#Ubuntu-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-LightItalic.eot');
+    src: url('../fonts/Ubuntu/Ubuntu-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu/Ubuntu-LightItalic.woff2') format('woff2'),
+        url('../fonts/Ubuntu/Ubuntu-LightItalic.woff') format('woff'),
+        url('../fonts/Ubuntu/Ubuntu-LightItalic.ttf') format('truetype'),
+        url('../fonts/Ubuntu/Ubuntu-LightItalic.svg#Ubuntu-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.eot');
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.woff') format('woff'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Light.eot');
+    src: url('../fonts/Ubuntu/Ubuntu-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu/Ubuntu-Light.woff2') format('woff2'),
+        url('../fonts/Ubuntu/Ubuntu-Light.woff') format('woff'),
+        url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('truetype'),
+        url('../fonts/Ubuntu/Ubuntu-Light.svg#Ubuntu-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.eot');
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.woff') format('woff'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.svg#PlayfairDisplay-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Medium.eot');
+    src: url('../fonts/Ubuntu/Ubuntu-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu/Ubuntu-Medium.woff2') format('woff2'),
+        url('../fonts/Ubuntu/Ubuntu-Medium.woff') format('woff'),
+        url('../fonts/Ubuntu/Ubuntu-Medium.ttf') format('truetype'),
+        url('../fonts/Ubuntu/Ubuntu-Medium.svg#Ubuntu-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;;
+}
+.page, body > form, .for_email, .content form {
+    margin: 0 auto;
+}
+header li a, p, footer li, footer a, input::placeholder {
+    font-family: "Playfair Display";
+    font-size: 14px;
+}
+header, header ul, .gallery, footer, footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+.page {
+    width: 1200px;
+    max-width: 100%;
+    padding: 0 70px;
+    padding-top: 68px;
+    box-sizing: border-box;
+}
+header {
+    height: 23px;
+    margin-bottom: 72px;
+}
+header ul {
+    width: 573px;
+}
+header li a {
+    color: rgb(98, 98, 98);
+    text-transform: uppercase;
+    line-height: 24px;
+}
+header + img {
+    height: 509px;
+    margin-bottom: 99px;
+}
+header + img, section img {
+    width: 100%;
+    object-fit: cover;
+}
+.content {
+    padding: 0px 80px;
+}
+h3 {
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 28px;
+}
+h2 {
+    font-size: 30px;
+    line-height: 30px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+p {
+    color: rgb(98, 98, 98);
+    margin-bottom: 52px;
+}
+.gallery {
+    margin-top: 107px;
+    flex-wrap: wrap;
+}
+.gallery img {
+    margin-bottom: 32px;
+}
+section {
+    width: 420px;
+}
+section img {
+    height: 273px;
+}
+section:first-child, section:nth-child(2) {
+    margin-bottom: 80px;
+}
+section:nth-child(3), section:last-child {
+    margin-bottom: 70px;
+}
+body > form {
+    width: 1200px;
+    max-width: 100%;
+    height: 287px;
+    background-color: #f0f0f0;
+    padding: 74px 0;
+    box-sizing: border-box;
+}
+body > form h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 73px;
+}
+.for_email {
+    width: 374px;
+    border-bottom: 1px solid #000;
+    position: relative;
+}
+input {
+    border: none;
+    background-color: #f0f0f0;
+    height: 37px;
+    width: 330px;
+}
+input::placeholder {
+    color: #626262;
+}
+form img {
+    position: absolute;
+    left: 340px;
+    top: 9px;
+}
+body > form + .page . gallery {
+    margin-top: 35px;
+}
+.content form {
+    width: 164px;
+    margin-top: 33px;
+    margin-bottom: 100px;
+}
+.content button {
+    width: 164px;
+    height: 60px;
+    border: 1px solid #626262;
+    background-color: white;
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+footer {
+    background-color: #f0f0f0;
+    height: 100px;
+    padding: 41px 150px 41px 71px;
+    box-sizing: border-box;
+}
+footer ul:first-child {
+    width: 199px;
+}
+footer ul:last-child {
+    width: 139px;
+}
+footer li, footer a {
+    color: #000000;
+    font-weight: 400;
+}
+footer img {
+    width: 15px;
+    height: 15px;
+}
