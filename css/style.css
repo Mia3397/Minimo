@@ -313,7 +313,7 @@ p {
     margin-bottom: 32px;
 }
 section {
-    width: 420px;
+    width: 47%;
 }
 section img {
     height: 273px;
@@ -375,6 +375,9 @@ body > form + .page . gallery {
     font-weight: 400;
     cursor: pointer;
 }
+.content button:hover {
+    background-color: rgba(98, 98, 98, 0.1)
+}
 footer {
     background-color: #f0f0f0;
     height: 100px;
@@ -394,4 +397,100 @@ footer li, footer a {
 footer img {
     width: 15px;
     height: 15px;
+}
+
+@media (max-width: 910px) {
+    header {
+        display: block;
+        height: 80px;
+    }
+    header ul {
+        margin-top: 20px;
+        width: 755px;
+        max-width: 100%;
+    }
+    .content {
+        padding: 0 50px;
+    }
+    .gallery {
+        display: block;
+    }
+    section {
+        margin: 0 auto;
+        width: 60%;
+    }
+}
+@media (max-width: 735px) {
+    .content {
+        padding: 0 30px;
+    }
+    section {
+        width: 80%;
+    }
+    footer {
+        display: block;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    footer ul {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 560px) {
+    header {
+        height: 200px;
+    }
+    header ul {
+        display: block
+    }
+    header li {
+        text-align: center;
+        margin-bottom: 6px;
+    }
+    header a {
+        display: inline-block;
+        padding: 3px 0;
+    }
+    header a:hover {
+        border-bottom: 1px solid #626262;
+    }
+    .content {
+        padding: 0 20px;
+    }
+    .page {
+        padding: 0 50px;
+    }
+}
+@media (max-width: 475px) {
+    .content {
+        padding: 0 10px;
+    }
+    .page {
+        padding: 0 20px;
+    }
+    body > form h2 {
+        font-size: 26px;
+    }
+    .for_email {
+        width: 280px;
+    }
+    .for_email input {
+        width: 245px;
+    }
+    form img {
+        left: 248px;
+    }
+    footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    footer ul:first-child {
+        width: 80%;
+    }
+    footer ul:last-child {
+        width: 50%;
+    }
+    footer li, footer a {
+        font-size: 13px;
+    }
 }
