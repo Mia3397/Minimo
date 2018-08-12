@@ -275,7 +275,6 @@ header li a {
     line-height: 24px;
 }
 header + img {
-    height: 509px;
     margin-bottom: 99px;
 }
 header + img, section img {
@@ -314,9 +313,6 @@ p {
 }
 section {
     width: 47%;
-}
-section img {
-    height: 273px;
 }
 section:first-child, section:nth-child(2) {
     margin-bottom: 80px;
@@ -458,18 +454,25 @@ footer img {
         padding: 0 20px;
     }
     .page {
-        padding: 0 50px;
+        padding-right: 50px;
+        padding-left: 50px;
     }
 }
 @media (max-width: 475px) {
+    body > form h2 {
+        font-size: 26px;
+    }
     .content {
         padding: 0 10px;
     }
     .page {
-        padding: 0 20px;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+
     }
-    body > form h2 {
-        font-size: 26px;
+    header + img {
+        margin-bottom: 60px;
     }
     .for_email {
         width: 280px;
